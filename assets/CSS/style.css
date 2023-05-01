@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Open+Sans:wght@300&family=Oswald:wght@200;300;400&family=Roboto+Mono:wght@200;300;500;700&family=Ysabeau:wght@100;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.topbar {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(199, 179, 179);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.head_icons {
+    display: flex;
+    gap: 15px;
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 15px;
+    margin-left: 80px;
+}
+.head:hover {
+    color:#FAB700
+}
+.head {
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.head_buttons {
+    margin-right: 80px;
+}
+
+.head_buttons button {
+    padding: 10px 20px;
+}
+
+.english_button {
+    background-color: rgba(172, 164, 164, 0.4);
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
+.quote_button {
+    background-color: #FAB700;
+    border: 0;
+    outline: 0;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.quote_button:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid #FAB700;
+}
+
+.navbar {
+    width: 90%;
+    margin: 0 auto;
+    height: 110px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.head_list ul {
+    display: flex;
+    gap: 20px;
+}
+.head_list ul li a {
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s
+}
+.head_list ul li a:hover {
+    color: #FAB700;
+}
+.banner {
+    width: 100%;
+    min-height: 700px;
+    background-image: url("../images/home-banner.jpg.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.banner_text {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner_text h1 {
+    font-size: 50px;
+    color: white;
+}
+.dream {
+    padding: 8px 13px;
+    background-color: #FAB700;
+    color: black;
+    border-radius: 5px;
+}
+.banner_text p {
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+}
+.discover {
+    color: #FAB700 !important;
+    padding: 18px 33px;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 13px !important;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.discover:hover {
+    background-color: #FAB700;
+    color: black !important;
+}
+.services_section {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+.services1 {
+    width: 20%;
+}
+.heading {
+    text-align: center;
+}
+.heading h1 {
+    font-family: 'Oswald', sans-serif;
+}
+.heading p {
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.4);
+    font-family: 'Oswald', sans-serif;
+}
+.services_list {
+    padding-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.picture {
+    text-align: center;
+}
+.picture h3 {
+    padding-top: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+.picture p {
+    color: rgba(0, 0, 0, 0.4);
+    padding-top: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+.project_section {
+    width: 100%;
+    padding-top: 150px;
+}
+.projects {
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.project1 {
+    max-width: 33.33%;
+    cursor: pointer;
+}
+
+.project1 img {
+    width: 100%;
+}
+.members {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.member1 {
+    width: 20%;
+}
+.member_picture img {
+    width: 100%;
+}
+.team_info {
+    text-align: center;
+    padding-top: 10px;
+}
+.team_info h3 {
+    font-family: 'Oswald', sans-serif;
+}
+.team_info p {
+    font-family: 'Oswald', sans-serif;
+    color: rgba(0, 0, 0, 0.4);
+    padding-top: 5px;
+}
+.info {
+    width: 90%;
+    margin: 0 auto;
+    height: 250px;
+    background-color: #FAB700;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+.info1 ul {
+    display: flex;
+    gap: 60px;
+}
+.info1 ul li h1 {
+    font-family: 'Oswald', sans-serif;
+}
+.info1 ul li p {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+.features_section {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.features_list {
+    padding-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+.feature1 {
+    width: 30%;
+    height: 200px;
+    border: 1px solid rgba(136, 131, 131, 0.4);
+    padding: 30px 50px;
+    border-radius: 10px;
+}
+.feature1 span {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.feature1 p {
+    font-family: 'Oswald', sans-serif;
+    color: rgba(0, 0, 0, 0.4);
+    padding-top: 20px;
+}
