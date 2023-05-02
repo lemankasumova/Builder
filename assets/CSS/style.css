@@ -185,12 +185,13 @@
     flex-wrap: wrap;
 }
 .project1 {
-    max-width: 33.33%;
+    width: 33.33%;
     cursor: pointer;
 }
 
 .project1 img {
     width: 100%;
+    display: block;
 }
 .members {
     padding-top: 50px;
@@ -229,10 +230,11 @@
     gap: 60px;
 }
 .info1 ul li h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 .info1 ul li p {
-    font-family: 'Oswald', sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
     letter-spacing: 2px;
 }
 .features_section {
@@ -258,9 +260,184 @@
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.feature1 span:hover {
+    color: #FAB700;
 }
 .feature1 p {
     font-family: 'Oswald', sans-serif;
     color: rgba(0, 0, 0, 0.4);
     padding-top: 20px;
+}
+.feature1 i {
+    cursor: pointer;
+    transition: 0.5s;
+}
+.feature1 i:hover {
+    color: #FAB700;
+}
+.container7 {
+    width: 100%;
+    height: 450px;
+    background-color: #F9F9FF;
+    padding-top: 100px;
+    margin-top: 100px;
+}
+.comments_section {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #F9F9FF;
+}
+.comment1 {
+    width: 45%;
+    border: 1px solid rgb(190, 172, 172);
+    border-radius: 10px;
+    padding: 40px 25px;
+}
+.com_picture span {
+    font-family: 'Oswald', sans-serif;
+}
+.com_picture {
+    display: flex;
+    gap: 20px;
+    color: rgba(0, 0, 0, 0.4);
+    width: 80%;
+}
+.com_info h3 {
+    font-family: 'Oswald', sans-serif;
+}
+.com_info p {
+    font-family: 'Oswald', sans-serif;
+    color: rgba(0, 0, 0, 0.4);
+}
+.com_info {
+    text-align: center;
+    margin-top: 20px;
+}
+.comments {
+    display: flex;
+    justify-content: space-between;
+}
+.container8 {
+    width: 100%;
+    height: 280px;
+    border-color: white;
+    margin-top: 80px;
+}
+.logo_section {
+    width: 80%;
+    padding-top: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo1 img {
+    opacity: 0.5;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.logo1 img:hover {
+    opacity: 1;
+}
+.footer {
+    width: 100%;
+    background-color: #222222; 
+}
+.footer_section {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+}
+.foot1 {
+    width: 20%;
+}
+.foot1 h3 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+.foot1 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: rgb(151, 147, 147);
+    padding-top: 20px;
+}
+.foot2 h3 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+.foot2 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: rgb(151, 147, 147);
+    padding-top: 20px;
+}
+.main {
+    color: #FAB700;
+    padding-top: 20px;
+}
+.foot2 h2 {
+    color: #FAB700;
+}
+.foot2 {
+    margin-left: 80px;
+    width: 30%;
+}
+.foot3 {
+    margin-left: 80px;
+    width: 40%;
+}
+.foot3 h3 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+.foot3 p {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: rgb(151, 147, 147);
+    padding-top: 20px;
+}
+.foot3 form input {
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    border-radius: 20px;
+    width: 380px;
+    height: 35px;
+    padding-left: 10px;
+    outline: none;
+}
+
+.foot3 form {
+    padding-top: 20px;
+}
+.end {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.end span {
+    color: rgb(151, 147, 147);
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+.end ul {
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+.end ul li {
+    background-color: black;
+    padding: 5px 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+    font-size: 12px;
+}
+.end ul li:hover {
+    background-color: #FAB700;
+    color: black;
 }
